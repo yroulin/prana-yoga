@@ -100,8 +100,8 @@ export const STR = {
     about: 'Acerca de',
     themeToDark: 'Cambiar a modo oscuro',
     themeToLight: 'Cambiar a modo claro',
-    savedOffline: 'Guardado para usar sin conexión',
-    notSaved: 'Guardando para usar sin conexión',
+    savedOffline: 'Guardado sin conexión',
+    notSaved: 'Preparando sin conexión',
     langLabel: 'Idioma',
 
     homeTitle: 'Vuelve a tu cuerpo.',
