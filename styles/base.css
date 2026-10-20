@@ -1,0 +1,212 @@
+/* Prāṇa — tokens, reset and typography.
+   Every colour lives here. No hex values are allowed anywhere else. */
+
+:root {
+  color-scheme: light;
+
+  /* The ground is a mist base with two soft fields over it, not a brand gradient. */
+  --ground-top: #e1e4e1;
+  --ground-mid: #cbd6d2;
+  --ground-bot: #c4cfdc;
+  --field-euca: rgba(122, 158, 144, 0.4);
+  --field-violet: rgba(126, 120, 166, 0.38);
+
+  --ink: #1f2a28;
+  --on-ink: #f0eee7;
+  --muted: #4e5c59;
+  --faint: #7e8b86;
+
+  --accent: #6e5a86;
+  --accent-soft: rgba(110, 90, 134, 0.14);
+  --on-accent: #f7f3fa;
+
+  --glass: rgba(255, 255, 255, 0.4);
+  --glass-line: rgba(255, 255, 255, 0.58);
+  --glass-shadow: 0 18px 50px rgba(31, 42, 40, 0.1);
+  --glass-sunk: rgba(255, 255, 255, 0.26);
+  --sheet-bg: rgba(255, 255, 255, 0.82);
+
+  --paper: #f0eee7;
+  --paper-ink: #2c2825;
+
+  --rule: rgba(31, 42, 40, 0.14);
+  --rule-strong: rgba(31, 42, 40, 0.26);
+
+  --font-display: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+  --font-body: 'Raleway', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  --col: 40rem;
+  --radius: 16px;
+  --radius-lg: 22px;
+
+  --blur: 18px;
+  --dur: 220ms;
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+[data-theme='dark'] {
+  color-scheme: dark;
+
+  --ground-top: #141a1e;
+  --ground-mid: #0f1417;
+  --ground-bot: #0b0f12;
+  --field-euca: rgba(90, 130, 120, 0.22);
+  --field-violet: rgba(110, 90, 134, 0.28);
+
+  --ink: #e7e9e6;
+  --on-ink: #1b2422;
+  --muted: #9ba8a4;
+  --faint: #74817d;
+
+  --accent: #a899ce;
+  --accent-soft: rgba(168, 153, 206, 0.16);
+  --on-accent: #14171b;
+
+  --glass: rgba(255, 255, 255, 0.055);
+  --glass-line: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+  --glass-sunk: rgba(255, 255, 255, 0.035);
+  --sheet-bg: rgba(19, 25, 29, 0.9);
+
+  --rule: rgba(231, 233, 230, 0.14);
+  --rule-strong: rgba(231, 233, 230, 0.28);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  min-height: 100dvh;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--ink);
+  background-color: var(--ground-mid);
+  background-image:
+    radial-gradient(72% 52% at 14% 6%, var(--field-euca) 0%, transparent 62%),
+    radial-gradient(78% 58% at 88% 94%, var(--field-violet) 0%, transparent 60%),
+    linear-gradient(176deg, var(--ground-top) 0%, var(--ground-mid) 52%, var(--ground-bot) 100%);
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+select {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+}
+
+/* ---- headings and text -------------------------------------------------- */
+
+.display {
+  font-family: var(--font-display);
+  font-size: clamp(2.3rem, 6.6vw, 3.35rem);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.012em;
+  text-wrap: balance;
+}
+
+.display-sm {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3.6vw, 1.85rem);
+  font-weight: 500;
+  line-height: 1.16;
+  letter-spacing: -0.005em;
+}
+
+.lede {
+  max-width: 52ch;
+  font-weight: 300;
+  font-size: 1.01rem;
+  line-height: 1.72;
+  color: var(--muted);
+}
+
+/* ---- focus --------------------------------------------------------------- */
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.skip {
+  position: absolute;
+  left: 1rem;
+  top: -4rem;
+  z-index: 100;
+  padding: 0.6rem 1rem;
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: 10px;
+  text-decoration: none;
+  transition: top var(--dur) var(--ease);
+}
+
+.skip:focus {
+  top: 1rem;
+}
+
+/* ---- utilities ----------------------------------------------------------- */
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.glass {
+  background: var(--glass);
+  -webkit-backdrop-filter: blur(var(--blur)) saturate(1.15);
+  backdrop-filter: blur(var(--blur)) saturate(1.15);
+  border: 1px solid var(--glass-line);
+  box-shadow: var(--glass-shadow);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

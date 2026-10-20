@@ -1,0 +1,1428 @@
+{
+  "_comment": "Authored metadata for the 45 selected poses. tools/build-poses.mjs merges this with the English source text scraped from yogaphilippines.com (tools/out/poses.source.json) into js/data/poses.js. EN steps are taken from the source by index in `steps`; ES steps, cues and care notes are authored here.",
+  "mountain-pose": {
+    "level": "gentle",
+    "phase": "open",
+    "baseSec": 45,
+    "helps": [
+      "breath",
+      "ankles",
+      "upper-back"
+    ],
+    "loads": [],
+    "sessions": [
+      "wake-up",
+      "desk-reset",
+      "unwind",
+      "sleep",
+      "strong"
+    ],
+    "nameEs": "Postura de la Montaña",
+    "cueEn": "Stand tall and let your weight settle evenly through both feet.",
+    "cueEs": "Ponte de pie y deja que el peso se reparta por igual en los dos pies.",
+    "steps": [
+      0,
+      3,
+      5
+    ],
+    "stepsEs": [
+      "Ponte de pie con los pies a la altura de la cadera y los bordes exteriores paralelos.",
+      "Apila la pelvis sobre los tobillos, las costillas sobre la pelvis y los hombros sobre las costillas.",
+      "Quédate cinco o diez respiraciones notando hacia dónde se desplaza el peso."
+    ],
+    "careEn": "Locking the knees back tips the weight into the heels and the lower back. Stand with your back near a wall to check whether you lean forward or back.",
+    "careEs": "Bloquear las rodillas hacia atrás lleva el peso a los talones y a la zona lumbar. Ponte de espaldas cerca de una pared para comprobar si te inclinas hacia delante o hacia atrás."
+  },
+  "easy-pose": {
+    "level": "gentle",
+    "phase": "rest",
+    "baseSec": 60,
+    "helps": [
+      "hips",
+      "lower-back",
+      "breath"
+    ],
+    "loads": [],
+    "sessions": [
+      "desk-reset",
+      "unwind",
+      "sleep"
+    ],
+    "nameEs": "Asiento fácil",
+    "cueEn": "Soften the shoulders and let the breath find its own rhythm.",
+    "cueEs": "Suelta los hombros y deja que la respiración encuentre su propio ritmo.",
+    "steps": [
+      0,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Siéntate en el borde delantero de una manta doblada o un cojín, con las piernas extendidas hacia delante.",
+      "Cruza las espinillas y deja caer las rodillas hacia el suelo, a la misma altura que las caderas o más abajo.",
+      "Crece desde la base de la columna hasta la coronilla, con el mentón nivelado."
+    ],
+    "careEn": "Sitting flat on the floor with the knees above the hips rounds the lower back. Sit on a folded blanket or a bolster.",
+    "careEs": "Sentarse en el suelo con las rodillas más altas que las caderas redondea la zona lumbar. Siéntate sobre una manta doblada o un cojín."
+  },
+  "cat-cow": {
+    "level": "gentle",
+    "phase": "open",
+    "baseSec": 60,
+    "helps": [
+      "upper-back",
+      "lower-back",
+      "breath"
+    ],
+    "loads": [
+      "wrists",
+      "knees"
+    ],
+    "sessions": [
+      "wake-up",
+      "desk-reset",
+      "unwind",
+      "sleep"
+    ],
+    "nameEs": "Gato-Vaca",
+    "cueEn": "One shape per inhale, one per exhale. Let the spine do the work.",
+    "cueEs": "Una forma por inhalación y otra por exhalación. Deja que la columna haga el trabajo.",
+    "steps": [
+      0,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Ponte a cuatro patas con las muñecas bajo los hombros y las rodillas bajo las caderas.",
+      "Inhala hacia la Vaca: eleva el cóccix, ablanda la barriga y levanta el pecho y la mirada.",
+      "Exhala hacia el Gato: recoge el cóccix, empuja el suelo y redondea la columna hacia el techo."
+    ],
+    "careEn": "Moving only the neck, nodding the head up and down, leaves the spine still. Fold the mat or put a blanket under the knees if kneeling hurts.",
+    "careEs": "Mover solo el cuello, asintiendo arriba y abajo, deja la columna quieta. Dobla la manta o pon una manta bajo las rodillas si te molesta arrodillarte."
+  },
+  "table-top-pose": {
+    "level": "gentle",
+    "phase": "open",
+    "baseSec": 45,
+    "helps": [
+      "upper-back",
+      "lower-back"
+    ],
+    "loads": [
+      "wrists",
+      "knees"
+    ],
+    "sessions": [
+      "wake-up",
+      "desk-reset",
+      "unwind"
+    ],
+    "nameEs": "Postura de la Mesa",
+    "cueEn": "Press the floor away so the shoulders do not sink.",
+    "cueEs": "Empuja el suelo para que los hombros no se hundan.",
+    "steps": [
+      0,
+      1,
+      3
+    ],
+    "stepsEs": [
+      "Ponte a cuatro patas, con una manta bajo las rodillas si están sensibles.",
+      "Coloca las muñecas bajo los hombros y las rodillas bajo las caderas; reparte los dedos y presiona toda la mano.",
+      "Alarga la columna del cóccix a la coronilla, con la espalda plana y el cuello largo."
+    ],
+    "careEn": "Make fists, rest the hands on blocks, or lower to the forearms if the wrists are sore.",
+    "careEs": "Cierra los puños, apoya las manos en bloques o baja sobre los antebrazos si te duelen las muñecas."
+  },
+  "childs-pose": {
+    "level": "gentle",
+    "phase": "rest",
+    "baseSec": 90,
+    "helps": [
+      "lower-back",
+      "shoulders",
+      "breath"
+    ],
+    "loads": [
+      "knees"
+    ],
+    "sessions": [
+      "unwind",
+      "sleep",
+      "desk-reset"
+    ],
+    "nameEs": "Postura del Niño",
+    "cueEn": "Let the breath move into the back of your ribs.",
+    "cueEs": "Deja que la respiración llegue a la parte de atrás de las costillas.",
+    "steps": [
+      0,
+      1,
+      4
+    ],
+    "stepsEs": [
+      "Arrodíllate con los dedos gordos juntos y las rodillas juntas o tan separadas como la manta.",
+      "Lleva las caderas hacia los talones, solo hasta donde resulte cómodo.",
+      "Deja que la respiración llegue a la parte de atrás de las costillas y siente cómo la espalda se ensancha al inhalar."
+    ],
+    "careEn": "Forcing the hips down onto the heels when the knees or ankles do not want it. Take the knees wide if the belly, chest or hips feel squashed.",
+    "careEs": "Forzar las caderas sobre los talones cuando las rodillas o los tobillos no están de acuerdo. Abre las rodillas si sientes el vientre, el pecho o las caderas apretados."
+  },
+  "supported-childs-pose": {
+    "level": "gentle",
+    "phase": "rest",
+    "baseSec": 120,
+    "helps": [
+      "lower-back",
+      "shoulders",
+      "hips",
+      "breath"
+    ],
+    "loads": [
+      "knees"
+    ],
+    "sessions": [
+      "unwind",
+      "sleep"
+    ],
+    "nameEs": "Postura del Niño apoyada",
+    "cueEn": "Nothing to hold. Let the floor take your weight.",
+    "cueEs": "No tienes que sostener nada. Deja que el suelo reciba tu peso.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Arrodíllate con un cojín cilíndrico delante y una manta doblada cerca.",
+      "Abre las rodillas y acuéstate con el vientre, el pecho y la cabeza sobre el cojín.",
+      "Gira la cabeza a un lado y apoya la mejilla; los brazos descansan a los lados, con los codos doblados."
+    ],
+    "careEn": "Put a folded blanket between the buttocks and the heels if the knees feel tight, and turn your head halfway through.",
+    "careEs": "Coloca una manta doblada entre el buttocks y los talones si las rodillas van tensas, y gira la cabeza a mitad de la postura."
+  },
+  "puppy-pose": {
+    "level": "gentle",
+    "phase": "open",
+    "baseSec": 60,
+    "helps": [
+      "shoulders",
+      "upper-back"
+    ],
+    "loads": [
+      "wrists"
+    ],
+    "sessions": [
+      "wake-up",
+      "desk-reset",
+      "unwind"
+    ],
+    "nameEs": "Postura del Cachorro",
+    "cueEn": "Chest sinking, hips staying high.",
+    "cueEs": "El pecho baja, las caderas suben.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Camina las manos hacia delante dejando las caderas sobre las rodillas.",
+      "Apoya la frente en la manta, un bloque o un cojín, con los brazos a la altura de los hombros.",
+      "Deja que el pecho se suave hacia el suelo mientras las caderas siguen elevadas."
+    ],
+    "careEn": "Letting the hips drift back toward the heels turns it into Child's Pose. Rest the chest on a bolster for a milder stretch.",
+    "careEs": "Si las caderas se van hacia los talones se convierte en Postura del Niño. Apoya el pecho en un cojín para un estiramiento más suave."
+  },
+  "standing-forward-bend": {
+    "level": "gentle",
+    "phase": "open",
+    "baseSec": 60,
+    "helps": [
+      "hamstrings",
+      "lower-back",
+      "breath"
+    ],
+    "loads": [],
+    "sessions": [
+      "wake-up",
+      "desk-reset",
+      "unwind"
+    ],
+    "nameEs": "Flexión de pie",
+    "cueEn": "Let the head and neck hang heavy.",
+    "cueEs": "Deja que la cabeza y el cuello cuelguen pesados.",
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Inhala y alarga hacia arriba. Exhala y dobla desde la cadera, con la espalda larga al principio.",
+      "Flexiona generosamente las rodillas y apoya las manos en las espinillas, en bloques o en el suelo.",
+      "Quédate cinco o ocho respiraciones y deja que todo el peso caiga en la parte alta de los pies."
+    ],
+    "careEn": "Locking the knees and rounding hard through the lower back to reach the floor. Rest the hands on two blocks or a chair seat.",
+    "careEs": "Bloquear las rodillas y redondear la zona lumbar para llegar al suelo. Apoya las manos en dos bloques o en el asiento de una silla."
+  },
+  "butterfly-pose": {
+    "level": "gentle",
+    "phase": "main",
+    "baseSec": 90,
+    "helps": [
+      "hips",
+      "hamstrings"
+    ],
+    "loads": [],
+    "sessions": [
+      "unwind",
+      "sleep",
+      "desk-reset"
+    ],
+    "nameEs": "Postura de la Mariposa",
+    "cueEn": "Lengthen up on the inhale, fold on the exhale.",
+    "cueEs": "Alarga al inhalar, dobla al exhalar.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Flexiona ambas rodillas y junta las plantas de los pies, dejando que las rodillas se abran hacia los lados.",
+      "Elige la distancia: los talones cerca de la pelvis para estirar más, o un pie más lejos para una forma más suave.",
+      "Sujeta los tobillos o las espinillas, no los dedos de los pies, y alarga la columna al inhalar."
+    ],
+    "careEn": "Bouncing the knees hard jars the inner groin. A gentle flutter is fine. Put a block under each knee so the legs can release.",
+    "careEs": "Bailar con fuerza las rodillas golpea la parte interna de la ingle. Un vaivén suave está bien. Pon un bloque bajo cada rodilla para que las piernas se liberen."
+  },
+  "seated-forward-bend": {
+    "level": "gentle",
+    "phase": "main",
+    "baseSec": 75,
+    "helps": [
+      "hamstrings",
+      "lower-back"
+    ],
+    "loads": [],
+    "sessions": [
+      "unwind",
+      "sleep",
+      "wake-up"
+    ],
+    "nameEs": "Flexión sentado",
+    "cueEn": "Lead with the chest, not the head.",
+    "cueEs": "Guide con el pecho, no con la cabeza.",
+    "steps": [
+      2,
+      3,
+      4
+    ],
+    "stepsEs": [
+      "Inhala y levanta los brazos para alargar los costados del cuerpo.",
+      "Exhala, inclina la pelvis hacia delante y dobla desde la cadera, guiando el pecho.",
+      "Sujeta las espinillas, los tobillos o los bordes de los pies, sin dejar que la espalda se redondee."
+    ],
+    "careEn": "Rounding the back to get the head to the knees moves the stretch into the spine. Sit on a folded blanket or a block so the pelvis can tip forward.",
+    "careEs": "Redondear la espalda para llevar la cabeza a las rodillas mueve el estiramiento a la columna. Siéntate sobre una manta doblada o un bloque para inclinar la pelvis."
+  },
+  "head-to-knee-pose": {
+    "level": "gentle",
+    "phase": "main",
+    "baseSec": 90,
+    "helps": [
+      "hamstrings",
+      "lower-back"
+    ],
+    "loads": [],
+    "sessions": [
+      "unwind",
+      "sleep",
+      "desk-reset"
+    ],
+    "nameEs": "Cabeza a la rodilla",
+    "cueEn": "Lengthen on each inhale, soften a little on each exhale.",
+    "cueEs": "Alarga en cada inhalación y afloja un poco en cada exhalación.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Flexiona la rodilla derecha y apoya la planta del pie derecho contra la parte interna del muslo izquierdo.",
+      "Gira el pecho para que el esternón quede alineado con la pierna izquierda.",
+      "Inhala y alarga la columna; exhala y dobla desde la cadera sobre la pierna izquierda."
+    ],
+    "careEn": "Pulling the head toward the knee and rounding the upper back moves the stretch away from the hamstrings. Sit higher on a blanket so the pelvis can tip forward.",
+    "careEs": "Tirar de la cabeza hacia la rodilla y redondear la espalda alta aleja el estiramiento de los isquiotibiales. Siéntate más alto sobre una manta para inclinar la pelvis."
+  },
+  "happy-baby-pose": {
+    "level": "gentle",
+    "phase": "rest",
+    "baseSec": 60,
+    "helps": [
+      "hips",
+      "lower-back"
+    ],
+    "loads": [],
+    "sessions": [
+      "unwind",
+      "sleep",
+      "desk-reset"
+    ],
+    "nameEs": "Postura del Bebé Feliz",
+    "cueEn": "Knees wide, sacrum heavy.",
+    "cueEs": "Rodillas abiertas y sacro pesado.",
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Acerca ambas rodillas al pecho y ábrelas más que las costillas, hacia las axilas.",
+      "Sujeta los bordes exteriores de los pies, o los tobillos o las espinillas si no alcanzas.",
+      "Baja los pies con suavidad, dejando el sacro y la pelvis pesados en la manta."
+    ],
+    "careEn": "Letting the lower back and tailbone curl off the floor. Loosen your grip until the pelvis settles back down.",
+    "careEs": "Dejar que la zona lumbar y el cóccix se despeguen del suelo. Afloja el agarre hasta que la pelvis vuelva a apoyarse."
+  },
+  "reclined-hand-to-big-toe": {
+    "level": "gentle",
+    "phase": "main",
+    "baseSec": 90,
+    "helps": [
+      "hamstrings",
+      "hips"
+    ],
+    "loads": [],
+    "sessions": [
+      "unwind",
+      "sleep"
+    ],
+    "nameEs": "Mano al dedo grande tumbada",
+    "cueEn": "Both hips level on the floor.",
+    "cueEs": "Las dos caderas al mismo nivel en el suelo.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Túmbate boca arriba y lleva la rodilla derecha al pecho, pasando una correa por la planta del pie.",
+      "Inhala y estira la pierna derecha hacia el techo solo hasta donde el rodilla permita; un poco de flexión está bien.",
+      "Presiona el muslo o el pie izquierdo contra el suelo para que ambas caderas queden niveladas."
+    ],
+    "careEn": "Letting the hip of the lifted leg hike up toward the ribs turns the stretch into a pull on the lower back. Keep the bottom knee bent if the back prefers it.",
+    "careEs": "Si la cadera de la pierna levantada sube hacia las costillas, el estiramiento se convierte en un tirón lumbar. Deja la rodilla de abajo flexionada si la espalda lo pide."
+  },
+  "savasana-corpse-pose": {
+    "level": "gentle",
+    "phase": "rest",
+    "baseSec": 150,
+    "helps": [
+      "breath",
+      "lower-back",
+      "neck"
+    ],
+    "loads": [],
+    "sessions": [
+      "unwind",
+      "sleep",
+      "wake-up",
+      "desk-reset"
+    ],
+    "nameEs": "Postura del Cadáver",
+    "cueEn": "Nothing to do. Nothing to fix.",
+    "cueEs": "Nada que hacer. Nada que arreglar.",
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Estira las piernas una a una y déjalas caer algo más abiertas que las caderas, con los pies cayendo hacia los lados.",
+      "Deja los brazos a un palmo del cuerpo, con las palmas hacia arriba, y lleva suavemente los omóplatos bajo el cuerpo.",
+      "Cierra los ojos y deja que la respiración vuelva a su propio ritmo. Quédate cinco o diez minutos."
+    ],
+    "careEn": "Skipping it to save time. The minutes of stillness at the end are part of the practice. Put a blanket under the knees if the lower back aches.",
+    "careEs": "Saltártela para ganar tiempo. Los minutos de quietud al final son parte de la práctica. Pon una manta bajo las rodillas si te duele la zona lumbar."
+  },
+  "legs-up-the-wall": {
+    "level": "gentle",
+    "phase": "rest",
+    "baseSec": 120,
+    "helps": [
+      "lower-back",
+      "breath",
+      "ankles"
+    ],
+    "loads": [],
+    "sessions": [
+      "unwind",
+      "sleep",
+      "desk-reset"
+    ],
+    "nameEs": "Piernas contra la pared",
+    "cueEn": "Five to ten minutes, breathing through the nose.",
+    "cueEs": "De cinco a diez minutos, respirando por la nariz.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Apóyate sobre un antebrazo y sube las piernas a la pared al tiempo que bajas la espalda al suelo.",
+      "Acerca el buttocks a la pared lo que resulte cómodo; las piernas no tienen que estar rectas.",
+      "Deja los brazos a los lados con las palmas hacia arriba y suelta los pies, con las plantas mirando al techo."
+    ],
+    "careEn": "Slide a folded blanket under the hips so the pelvis is slightly raised and the tailbone drops over the edge.",
+    "careEs": "Desliza una manta doblada bajo la pelvis para elevarla un poco y que el cóccix caiga sobre el borde."
+  },
+  "sphinx-pose": {
+    "level": "gentle",
+    "phase": "main",
+    "baseSec": 60,
+    "helps": [
+      "lower-back",
+      "upper-back"
+    ],
+    "loads": [],
+    "sessions": [
+      "wake-up",
+      "desk-reset",
+      "unwind"
+    ],
+    "nameEs": "Postura de la Esfinge",
+    "cueEn": "Lead with the chest, not the chin.",
+    "cueEs": "Guide con el pecho, no con el mentón.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Coloca los codos bajo los hombros, o un poco por delante, con los antebrazos paralelos y las palmas en el suelo.",
+      "Presiona los antebrazos en el suelo para elevar el pecho y deja que los hombros se alejen de las orejas.",
+      "Deja que la barriga y las piernas descansen en la manta y permite una curva suave en la zona lumbar."
+    ],
+    "careEn": "Placing the elbows behind the shoulders drops the chest and crowds the lower back. Put a folded blanket under the hip bones.",
+    "careEs": "Poner los codos detrás de los hombros baja el pecho y apiasta la zona lumbar. Coloca una manta doblada bajo los huesos de la cadera."
+  },
+  "cobra-pose": {
+    "level": "gentle",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "upper-back",
+      "shoulders",
+      "lower-back"
+    ],
+    "loads": [
+      "wrists"
+    ],
+    "sessions": [
+      "wake-up",
+      "desk-reset",
+      "unwind"
+    ],
+    "nameEs": "Postura de la Cobra",
+    "cueEn": "Use your back first, your hands only lightly.",
+    "cueEs": "Usa primero la espalda, y las manos solo ligeramente.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Coloca las manos planas bajo los hombros, con los dedos hacia delante y los codos pegados a las costillas.",
+      "Presiona el pubis y la parte superior de los pies contra el suelo y alarga la zona lumbar.",
+      "Inhala y eleva primero la frente, luego el pecho, sin dejar que las manos hagan todo el trabajo."
+    ],
+    "careEn": "Straightening the arms and hanging in the lower back crunches the lumbar spine. Stay low in a baby cobra instead.",
+    "careEs": "Estirar los brazos y colgarte de la zona lumbar comprime la columna lumbar. Quédate bajo, en una cobra suave."
+  },
+  "locust-pose": {
+    "level": "gentle",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "upper-back",
+      "shoulders"
+    ],
+    "loads": [
+      "lower-back"
+    ],
+    "sessions": [
+      "wake-up",
+      "desk-reset"
+    ],
+    "nameEs": "Postura de la Langosta",
+    "cueEn": "Keep the lift moderate rather than straining for height.",
+    "cueEs": "Mantén la altura moderada, sin forzarte por llegar más arriba.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Presiona suavemente la parte superior de los pies y el pubis contra el suelo, alargando las piernas.",
+      "Inhala y eleva la cabeza, el pecho y los brazos, manteniendo largo el cuello.",
+      "Si te resulta bien, eleva también las piernas, con las rodillas rectas y los pies separados como la anchura de la cadera."
+    ],
+    "careEn": "Throwing the head back shortens the back of the neck. Lift only the chest and leave the legs down if the back complains.",
+    "careEs": "Tirar la cabeza hacia atrás acorta la nuca. Eleva solo el pecho y deja las piernas en el suelo si la espalda protesta."
+  },
+  "bridge-pose": {
+    "level": "gentle",
+    "phase": "main",
+    "baseSec": 60,
+    "helps": [
+      "lower-back",
+      "hips"
+    ],
+    "loads": [],
+    "sessions": [
+      "wake-up",
+      "desk-reset",
+      "unwind",
+      "strong"
+    ],
+    "nameEs": "Postura del Puente",
+    "cueEn": "Knees tracking over the ankles.",
+    "cueEs": "Las rodillas en la misma dirección que los tobillos.",
+    "steps": [
+      0,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Túmbate boca arriba con las rodillas flexionadas, los pies en el suelo y los talones a un palmo de los buttocks.",
+      "Presiona a través de los pies, sobre todo por los bordes interiores y los talones, y al inhalar eleva la pelvis.",
+      "Mantén las rodillas apuntando al frente, sobre los tobillos, y deja que el pecho se eleve sin apretar el mentón."
+    ],
+    "careEn": "Letting the knees splay outward shifts the weight onto the outer feet. Slide a block under the sacrum for a supported bridge.",
+    "careEs": "Dejar que las rodillas se abran hacia fuera desplaza el peso a los bordes externos de los pies. Desliza un bloque bajo el sacro para un puente apoyado."
+  },
+  "downward-dog": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 60,
+    "helps": [
+      "hamstrings",
+      "shoulders",
+      "upper-back"
+    ],
+    "loads": [
+      "wrists"
+    ],
+    "sessions": [
+      "wake-up",
+      "strong",
+      "desk-reset"
+    ],
+    "nameEs": "Perro hacia abajo",
+    "cueEn": "Bend the knees until the spine is long, then straighten.",
+    "cueEs": "Flexiona las rodillas hasta que la columna esté larga, y después estira las piernas.",
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Planta los dedos de los pies y, al exhalar, eleva las rodillas y lleva la pelvis hacia arriba y atrás.",
+      "Mantén las rodillas flexionadas al principio para poder alargar toda la columna desde las manos hasta los huesos de la cadera.",
+      "Estira las piernas tanto como permitan los isquiotibiales, buscando los talones sin necesidad de que toquen el suelo."
+    ],
+    "careEn": "Forcing the heels to the floor while the back rounds. The heels are the last thing to worry about. Take Downward Dog off the table if the wrists complain.",
+    "careEs": "Forzar los talones contra el suelo redondeando la espalda. Los talones son lo último que debe preocuparte. Saca el Perro hacia abajo de la lista si te molestan las muñecas."
+  },
+  "warrior-poses": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 90,
+    "helps": [
+      "hips",
+      "hamstrings",
+      "shoulders",
+      "thighs"
+    ],
+    "loads": [],
+    "sessions": [
+      "wake-up",
+      "strong",
+      "desk-reset"
+    ],
+    "nameEs": "Guerreros I, II y III",
+    "cueEn": "Front knee over the ankle, back heel reaching down.",
+    "cueEs": "Rodilla delantera sobre el tobillo, talón trasero buscando el suelo.",
+    "steps": [
+      2,
+      3,
+      4
+    ],
+    "stepsEs": [
+      "Guerrero II: desde una apertura amplia, gira el pie derecho noventa grados y el izquierdo hacia dentro.",
+      "Flexiona la rodilla derecha sobre el tobillo, estira los brazos a la altura de los hombros y mira más allá de las yemas de los dedos.",
+      "Guerrero III: desde una zancada corta, lleva el peso a la pierna delantera, inclínate y eleva la pierna trasera."
+    ],
+    "careEn": "Letting the front knee move past the ankle or cave inward loads the knee from the side. Shorten the stance and lift the back heel if the hips feel tight.",
+    "careEs": "Dejar que la rodilla delantera pase del tobillo o se hunda hacia dentro carga la rodilla de lado. Acorta la zancada y eleva el talón trasero si las caderas van tensas."
+  },
+  "triangle-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 75,
+    "helps": [
+      "hamstrings",
+      "hips",
+      "lower-back"
+    ],
+    "loads": [],
+    "sessions": [
+      "wake-up",
+      "strong",
+      "desk-reset"
+    ],
+    "nameEs": "Postura del Triángulo",
+    "cueEn": "Reach from the hip, not from the floor.",
+    "cueEs": "Alcanza desde la cadera, no desde el suelo.",
+    "steps": [
+      2,
+      3,
+      4
+    ],
+    "stepsEs": [
+      "Mantén las dos piernas rectas sin bloquear las rodillas y lleva el brazo derecho sobre la pierna derecha.",
+      "Cuando no puedas estirar más, dobla desde la cadera derecha y apoya la mano en la espinilla, el tobillo o un bloque.",
+      "Estira el brazo izquierdo hacia el techo y gira la mirada a la mano izquierda, o al frente, o al suelo."
+    ],
+    "careEn": "Reaching for the floor at the cost of the spine folds the waist and turns the chest to the floor. Rest the lower hand on a block.",
+    "careEs": "Alcanzar el suelo a costa de la columna dobla la cintura y gira el pecho al suelo. Apoya la mano de abajo en un bloque."
+  },
+  "extended-side-angle": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 75,
+    "helps": [
+      "hips",
+      "hamstrings",
+      "lower-back"
+    ],
+    "loads": [],
+    "sessions": [
+      "wake-up",
+      "strong",
+      "desk-reset"
+    ],
+    "nameEs": "Ángulo lateral extendido",
+    "cueEn": "One line from the back heel to the fingertips.",
+    "cueEs": "Una sola línea, del talón trasero a las yemas de los dedos.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Inclina el torso sobre el muslo derecho y apoya el antebrazo derecho en el muslo, o la mano en un bloque fuera del pie derecho.",
+      "Presiona el borde exterior del pie trasero contra el suelo, para que la pierna izquierda quede fuerte y recta.",
+      "Estira el brazo izquierdo hacia arriba y luego por encima de la oreja izquierda, con la palma hacia abajo."
+    ],
+    "careEn": "Letting the front knee cave in toward the big toe. Rest the forearm on the thigh instead of reaching for the floor.",
+    "careEs": "Dejar que la rodilla delantera se hunda hacia el dedo gordo. Apoya el antebrazo en el muslo en lugar de buscar el suelo."
+  },
+  "chair-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "thighs",
+      "ankles",
+      "upper-back"
+    ],
+    "loads": [
+      "knees"
+    ],
+    "sessions": [
+      "strong",
+      "wake-up"
+    ],
+    "nameEs": "Postura de la Silla",
+    "cueEn": "Sit back as if onto a chair behind you.",
+    "cueEs": "Siéntate hacia atrás como si hubiera una silla detrás.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Inhala y sube los brazos hacia delante y arriba, a la altura de los hombros, con las palmas una hacia otra.",
+      "Exhala, flexiona las rodillas y lleva la pelvis atrás y abajo, como si te sentaras en el borde de un taburete.",
+      "Baja la mirada: deberías seguir viendo los dedos de los pies por detrás de las rodillas, y el peso debe estar más en los talones que en la parte delantera."
+    ],
+    "careEn": "Letting the knees drift far past the toes moves the weight onto the front of the foot. Take the feet hip-width apart if they knock together.",
+    "careEs": "Dejar que las rodillas pasen de los dedos de los pies mueve el peso a la parte delantera del pie. Pon los pies a la anchura de la cadera si se chocan entre sí."
+  },
+  "low-lunge": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 75,
+    "helps": [
+      "hips",
+      "thighs",
+      "hamstrings"
+    ],
+    "loads": [
+      "knees"
+    ],
+    "sessions": [
+      "wake-up",
+      "strong",
+      "desk-reset"
+    ],
+    "nameEs": "Zancada baja",
+    "cueEn": "Sink forward into the front of the hip.",
+    "cueEs": "Afúndate hacia delante en la parte delantera de la cadera.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Baja la rodilla izquierda sobre una manta doblada y deslízala atrás hasta que la rodilla derecha quede sobre el tobillo derecho.",
+      "Apoya la parte superior del pie trasero en la manta, o pliega los dedos si es más amable con la rodilla.",
+      "Lleva las manos al muslo derecho y eleva el pecho, con los hombros sobre las caderas."
+    ],
+    "careEn": "Letting the front knee drift inward loads the knee from the side. Double the blanket under the back knee if kneeling is uncomfortable.",
+    "careEs": "Dejar que la rodilla delantera se vaya hacia dentro carga la rodilla de lado. Dobla la manta bajo la rodilla trasera si te incomoda arrodillarte."
+  },
+  "pyramid-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 75,
+    "helps": [
+      "hamstrings",
+      "lower-back"
+    ],
+    "loads": [],
+    "sessions": [
+      "wake-up",
+      "strong"
+    ],
+    "nameEs": "Postura de la Pirámide",
+    "cueEn": "Hinge from the hips with the spine long.",
+    "cueEs": "Dobla desde la cadera con la columna larga.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Mantén los pies a la anchura de la cadera, como sobre dos raíles, y gira ambos puntos de la cadera hacia el frente de la manta.",
+      "Coloca las manos en la cadera o en bloques a los lados del pie derecho. Inhala y alarga la columna hacia delante.",
+      "Exhala y dobla desde la cadera sobre la pierna derecha, manteniendo la espalda larga."
+    ],
+    "careEn": "Setting the feet on one line makes it hard to balance and twists the hips. Rest the hands on blocks or a chair seat.",
+    "careEs": "Poner los pies en una sola línea dificulta el equilibrio y gira las caderas. Apoya las manos en bloques o en el asiento de una silla."
+  },
+  "dolphin-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 60,
+    "helps": [
+      "shoulders",
+      "upper-back"
+    ],
+    "loads": [
+      "wrists"
+    ],
+    "sessions": [
+      "wake-up",
+      "strong",
+      "desk-reset"
+    ],
+    "nameEs": "Postura del Delfín",
+    "cueEn": "The head hangs. It does not rest.",
+    "cueEs": "La cabeza cuelga. No se apoya.",
+    "steps": [
+      0,
+      1,
+      2
+    ],
+    "stepsEs": [
+      "Baja a los antebrazos, con los codos bajo los hombros y los antebrazos paralelos, y las palmas planas.",
+      "Pliega los dedos de los pies y, al exhalar, eleva la pelvis hacia arriba y atrás, con las rodillas flexionadas al principio.",
+      "Presiona los antebrazos y la base de los dedos índice contra el suelo, y aleja los hombros del suelo."
+    ],
+    "careEn": "Letting the elbows slide out wider than the shoulders. Keep the knees bent the whole time so the back can stay long.",
+    "careEs": "Dejar que los codos se abran más que los hombros. Mantén las rodillas flexionadas todo el tiempo para que la espalda pueda quedar larga."
+  },
+  "tree-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "hips",
+      "breath"
+    ],
+    "loads": [
+      "ankles"
+    ],
+    "sessions": [
+      "wake-up",
+      "strong",
+      "desk-reset",
+      "unwind"
+    ],
+    "nameEs": "Postura del Árbol",
+    "cueEn": "Gaze on one point that does not move.",
+    "cueEs": "Mira un punto que no se mueva.",
+    "steps": [
+      1,
+      2,
+      5
+    ],
+    "stepsEs": [
+      "Pasa el peso al pie izquierdo y presiona abajo el dedo gordo, el meñique y el talón.",
+      "Levanta el pie derecho y apoya la planta en la parte interna de la pantorrilla o del muslo, nunca sobre la rodilla.",
+      "Quédate cinco o ocho respiraciones lentas, y baja el pie con control antes de cambiar de lado."
+    ],
+    "careEn": "Pressing the foot into the side of the knee puts sideways pressure on a joint. Keep the toes of the lifted foot on the floor as a kickstand.",
+    "careEs": "Presionar el pie contra el lateral de la rodilla somete la articulación a un esfuerzo lateral. Deja la punta del pie elevado en el suelo, a modo de apoyo."
+  },
+  "eagle-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "shoulders",
+      "upper-back"
+    ],
+    "loads": [
+      "ankles"
+    ],
+    "sessions": [
+      "wake-up",
+      "strong",
+      "unwind"
+    ],
+    "nameEs": "Postura del Águila",
+    "cueEn": "Sit lower. Straight legs make it harder.",
+    "cueEs": "Siéntate más abajo. Con las piernas rectas cuesta más.",
+    "steps": [
+      1,
+      3,
+      4
+    ],
+    "stepsEs": [
+      "Pasa el peso al pie izquierdo, levanta la pierna derecha y cruza el muslo derecho sobre el izquierdo, tan arriba como puedas.",
+      "Estira los brazos al frente, cruza el brazo izquierdo sobre el derecho por los codos y lleva las palmas una hacia otra.",
+      "Eleva los codos a la altura de los hombros y quédate cinco respiraciones, sentado más bajo."
+    ],
+    "careEn": "Standing tall with straight legs makes the balance much harder. Rest the toes of the crossed leg on the floor instead of hooking the calf.",
+    "careEs": "Quedarte alto con las piernas rectas hace mucho más difícil el equilibrio. Apoya la punta del pie cruzado en el suelo en lugar de enganchar la pantorrilla."
+  },
+  "boat-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "hips",
+      "breath",
+      "upper-back"
+    ],
+    "loads": [
+      "lower-back"
+    ],
+    "sessions": [
+      "strong",
+      "wake-up"
+    ],
+    "nameEs": "Postura del Barco",
+    "cueEn": "Balance just behind the sitting bones.",
+    "cueEs": "Equilibra justo detrás de los huesos de la pelvis.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Inclínate hacia atrás alargando desde los huesos de la pelvis hasta la coronilla.",
+      "Levanta los pies del suelo con las espinillas paralelas a este y las rodillas flexionadas.",
+      "Cuando la columna se mantenga larga, suelta las manos y estira los brazos hacia delante, con las palmas una hacia otra."
+    ],
+    "careEn": "Rolling back onto the tailbone and rounding the lower back. Keep your hands on the floor behind you, or around the backs of your thighs.",
+    "careEs": "Rodar sobre el cóccix y redondear la zona lumbar. Apoya las manos en el suelo detrás de ti o en la parte trasera de los muslos."
+  },
+  "hero-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 90,
+    "helps": [
+      "hips",
+      "breath",
+      "thighs"
+    ],
+    "loads": [
+      "knees"
+    ],
+    "sessions": [
+      "unwind",
+      "sleep"
+    ],
+    "nameEs": "Postura del Héroe",
+    "cueEn": "Knee pain means add height, every time.",
+    "cueEs": "Dolor de rodilla significa añadir altura, siempre.",
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Coloca un bloque entre los pies, en la altura más baja o intermedia.",
+      "Con las manos, rueda suavemente los gemelos hacia fuera y siéntate sobre el bloque.",
+      "Siéntate alto con las manos en los muslos y respira durante uno o dos minutos."
+    ],
+    "careEn": "Sitting low without props while the knees ache. Sit on two blocks or a bolster so the knees bend less.",
+    "careEs": "Sentarte bajo sin apoyos mientras duelen las rodillas. Siéntate sobre dos bloques o un cojín para que las rodillas flexionen menos."
+  },
+  "saddle-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 120,
+    "helps": [
+      "thighs",
+      "hips"
+    ],
+    "loads": [
+      "knees"
+    ],
+    "sessions": [
+      "unwind",
+      "sleep"
+    ],
+    "nameEs": "Postura de la Silla de montar",
+    "cueEn": "A stretch at the front of the thigh is fine. Pain in the knee joint is not.",
+    "cueEs": "Un estiramiento en la parte delantera del muslo está bien. El dolor en la articulación de la rodilla no.",
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Apóyate en las manos y después en los antebrazos, comprobando las rodillas y la zona lumbar.",
+      "Si todo está bien, tumbarte sobre el cojín con la espalda y la cabeza apoyadas.",
+      "Quédate de uno a tres minutos para empezar, respirando despacio hacia la barriga."
+    ],
+    "careEn": "Pushing into the pose with knee pain. Do the half version: stretch one leg out in front and fold only the other back.",
+    "careEs": "Forzar la postura con dolor de rodilla. Haz la versión media: estira una pierna hacia delante y pliega solo la otra hacia atrás."
+  },
+  "staff-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "upper-back",
+      "breath",
+      "hamstrings"
+    ],
+    "loads": [],
+    "sessions": [
+      "wake-up",
+      "unwind",
+      "desk-reset"
+    ],
+    "nameEs": "Postura del Bastón",
+    "cueEn": "Sit on the front of your sitting bones.",
+    "cueEs": "Siéntate en la parte delantera de los huesos de la pelvis.",
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Pasa la mano bajo cada buttocks y lleva un poco de carne hacia atrás, para sentarte en la parte delantera y no rodada.",
+      "Pon las manos en el suelo junto a las caderas y empuja hacia abajo para elevar el pecho.",
+      "Apila los hombros sobre las caderas, suelta los hombros lejos de las orejas y mantén el mentón nivelado."
+    ],
+    "careEn": "Slumping back onto the tailbone rounds the lower back. Sit on a folded blanket or a block so the pelvis can tip forward.",
+    "careEs": "Recostarse sobre el cóccix redondea la zona lumbar. Siéntate sobre una manta doblada o un bloque para inclinar la pelvis."
+  },
+  "garland-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 60,
+    "helps": [
+      "hips",
+      "thighs"
+    ],
+    "loads": [
+      "knees",
+      "ankles"
+    ],
+    "sessions": [
+      "desk-reset",
+      "wake-up",
+      "strong"
+    ],
+    "nameEs": "Postura de la Guirnalda",
+    "cueEn": "Lengthen up, do not fold forward.",
+    "cueEs": "Alarga hacia arriba, no te dobles hacia delante.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Flexiona las rodillas y baja la pelvis hacia el suelo entre los talones, manteniendo los talones en el suelo si puedes.",
+      "Junta las palmas a la altura del pecho y presiona suavemente los codos contra el interior de las rodillas.",
+      "Alarga la columna hacia arriba, dejando que el pecho se aleje de los muslos en vez de redondearse."
+    ],
+    "careEn": "Letting the knees collapse inward past the big toes. Slide a rolled blanket under the heels if they lift.",
+    "careEs": "Dejar que las rodillas se hundan más allá de los dedos gordos. Desliza una manta enrollada bajo los talones si se levantan."
+  },
+  "camel-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "shoulders",
+      "upper-back"
+    ],
+    "loads": [
+      "neck",
+      "lower-back"
+    ],
+    "sessions": [
+      "wake-up",
+      "strong"
+    ],
+    "nameEs": "Postura del Camello",
+    "cueEn": "The chest rises before anything bends back.",
+    "cueEs": "El pecho sube antes de que nada se curve hacia atrás.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Coloca las manos en la parte trasera de la pelvis y lleva suavemente el cóccix hacia el suelo.",
+      "Inhala y eleva el esternón hacia el techo, de modo que el pecho suba antes de que nada se curve hacia atrás.",
+      "Manteniendo las caderas sobre las rodillas, inclínate atrás solo hasta donde resulte controlado."
+    ],
+    "careEn": "Letting the hips drift back behind the knees turns the pose into a squeeze in the lower back. Keep the hands on the lower back the whole time.",
+    "careEs": "Dejar que las caderas se vayan detrás de las rodillas convierte la postura en un aplastamiento lumbar. Mantén las manos en la zona baja de la espalda todo el tiempo."
+  },
+  "fish-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 60,
+    "helps": [
+      "upper-back",
+      "shoulders"
+    ],
+    "loads": [
+      "neck"
+    ],
+    "sessions": [
+      "desk-reset",
+      "unwind",
+      "wake-up"
+    ],
+    "nameEs": "Postura del Pez",
+    "cueEn": "Lift the chest, not the head.",
+    "cueEs": "Eleva el pecho, no la cabeza.",
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Desliza las manos, con las palmas hacia abajo, bajo la pelvis y acerca los codos al cuerpo.",
+      "Presiona los antebrazos y los codos y eleva el pecho hacia el techo, arqueando la espalda alta.",
+      "Mantén las piernas activas, presionando los muslos hacia el suelo y estirando los talones."
+    ],
+    "careEn": "Putting weight on the top of the head compresses the neck. Lie back over a block placed lengthwise under the upper back.",
+    "careEs": "Poner peso sobre la parte superior de la cabeza comprime el cuello. Tumbate sobre un bloque colocado a lo largo de la espalda alta."
+  },
+  "wide-squat-pose": {
+    "level": "steady",
+    "phase": "main",
+    "baseSec": 60,
+    "helps": [
+      "thighs",
+      "hips",
+      "ankles"
+    ],
+    "loads": [
+      "knees"
+    ],
+    "sessions": [
+      "wake-up",
+      "strong",
+      "desk-reset"
+    ],
+    "nameEs": "Agachamiento amplio",
+    "cueEn": "Each knee moves in the same direction as its toe.",
+    "cueEs": "Cada rodilla se mueve en la misma dirección que su dedo.",
+    "steps": [
+      2,
+      3,
+      4
+    ],
+    "stepsEs": [
+      "Exhala, flexiona las rodillas y baja la pelvis hasta la altura de las rodillas, manteniendo cada rodilla en la dirección de su dedo.",
+      "Apila los hombros sobre las caderas y deja que el cóccix apunte al suelo, para que la zona lumbar quede larga.",
+      "Estira los brazos a los lados con los codos a noventa grados, o mantén las manos en el pecho. Quédate cinco respiraciones."
+    ],
+    "careEn": "Letting the knees drop inward past the big toes strains the inside of the knee. Keep the bend small and the hands on the hips.",
+    "careEs": "Dejar que las rodillas caigan hacia dentro más allá de los dedos gordos fuerza la parte interna de la rodilla. Haz la flexión pequeña y mantén las manos en la cadera."
+  },
+  "upward-facing-dog": {
+    "level": "strong",
+    "phase": "main",
+    "baseSec": 30,
+    "helps": [
+      "upper-back",
+      "shoulders"
+    ],
+    "loads": [
+      "wrists",
+      "lower-back"
+    ],
+    "sessions": [
+      "strong",
+      "wake-up"
+    ],
+    "nameEs": "Perro hacia arriba",
+    "cueEn": "Only the hands and the tops of the feet touch.",
+    "cueEs": "Solo tocan el suelo las manos y la parte superior de los pies.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Presiona la parte superior de los pies contra el suelo con firmeza hasta que las rodillas empiecen a elevarse.",
+      "Inhala y estira los brazos, llevando el pecho hacia delante y arriba.",
+      "Eleva los muslos y las rodillas del suelo, de modo que solo las manos y la parte superior de los pies toquen la manta."
+    ],
+    "careEn": "Letting the hips and thighs sag while the arms are straight hangs the weight in the lower back. Do Cobra instead.",
+    "careEs": "Dejar caer la pelvis y los muslos con los brazos rectos cuelga el peso en la zona lumbar. Haz la Cobra en su lugar."
+  },
+  "plank-pose": {
+    "level": "strong",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "upper-back",
+      "breath"
+    ],
+    "loads": [
+      "wrists",
+      "shoulders"
+    ],
+    "sessions": [
+      "strong",
+      "wake-up"
+    ],
+    "nameEs": "Postura de la Plancha",
+    "cueEn": "One line from head to heels.",
+    "cueEs": "Una línea de la cabeza a los talones.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Presiona toda la palma hacia abajo, sobre todo en la base del dedo índice, y aleja suavemente los omóplatos de las orejas.",
+      "Lleva un pie atrás y después el otro, apoyado en la parte delantera, con las piernas rectas.",
+      "Eleva la parte delantera de los muslos y presiona los talones hacia atrás, con las caderas a la altura de los hombros."
+    ],
+    "careEn": "Letting the hips sag toward the floor makes the lower back take the weight. Lower both knees to the mat and keep a straight line from knees to head.",
+    "careEs": "Dejar caer la pelvis hacia el suelo hace que la zona lumbar cargue el peso. Baja las dos rodillas a la manta y mantén una línea recta de las rodillas a la cabeza."
+  },
+  "side-plank": {
+    "level": "strong",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "upper-back",
+      "hips"
+    ],
+    "loads": [
+      "wrists",
+      "shoulders"
+    ],
+    "sessions": [
+      "strong"
+    ],
+    "nameEs": "Plancha lateral",
+    "cueEn": "Lift out of the wrist, not into it.",
+    "cueEs": "Eleva desde la muñeca, no hacia ella.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Pasa el peso a la mano derecha y rueda sobre el canto exterior del pie derecho.",
+      "Empuja el suelo con la mano derecha para que el hombro salga de la muñeca en vez de hundirse.",
+      "Eleva la pelvis hasta que el cuerpo vuelva a formar una línea y lleva el brazo izquierdo hacia el techo."
+    ],
+    "careEn": "Letting the bottom shoulder collapse toward the ear loads the wrist and the shoulder joint. Lower the bottom knee to the mat and lift from there.",
+    "careEs": "Dejar que el hombro de abajo se derrumbe hacia la oreja carga la muñeca y la articulación del hombro. Baja la rodilla de abajo a la manta y levántate desde ahí."
+  },
+  "reverse-plank": {
+    "level": "strong",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "upper-back",
+      "thighs"
+    ],
+    "loads": [
+      "wrists",
+      "shoulders"
+    ],
+    "sessions": [
+      "strong"
+    ],
+    "nameEs": "Plancha inversa",
+    "cueEn": "Press the floor away and keep the hips lifted.",
+    "cueEs": "Empuja el suelo y mantén la pelvis elevada.",
+    "steps": [
+      1,
+      2,
+      4
+    ],
+    "stepsEs": [
+      "Flexiona ligeramente los codos y presiona las manos, rodando los hombros atrás para elevar el pecho.",
+      "Inhala y presiona los talones para elevar la pelvis, hasta que el cuerpo forme una línea de los hombros a los tobillos.",
+      "Quédate tres o cinco respiraciones, manteniendo la pelvis elevada."
+    ],
+    "careEn": "Letting the hips sag hangs the weight in the shoulders. Bend the knees with the feet flat for reverse table top.",
+    "careEs": "Dejar caer la pelvis cuelga el peso en los hombros. Flexiona las rodillas con los pies en el suelo para hacer la mesa invertida."
+  },
+  "crescent-lunge": {
+    "level": "strong",
+    "phase": "main",
+    "baseSec": 60,
+    "helps": [
+      "thighs",
+      "hips",
+      "shoulders"
+    ],
+    "loads": [
+      "knees"
+    ],
+    "sessions": [
+      "strong",
+      "wake-up"
+    ],
+    "nameEs": "Zancada de la Media Luna",
+    "cueEn": "Front knee tracking over the second toe.",
+    "cueEs": "Rodilla delantera en la dirección del segundo dedo.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Mantén la rodilla trasera elevada, ponte sobre la parte delantera del pie izquierdo y empuja el muslo trasero hacia arriba.",
+      "Inhala y sube, elevando el pecho y trayendo los hombros sobre las caderas.",
+      "Estira los brazos hacia arriba, separados a la altura de los hombros, y baja suavemente el cóccix."
+    ],
+    "careEn": "Letting the front knee drift past the ankle or cave inward. Lower the back knee onto a blanket and use Low Lunge instead.",
+    "careEs": "Dejar que la rodilla delantera pase del tobillo o se hunda hacia dentro. Baja la rodilla trasera sobre una manta y usa la Zancada baja."
+  },
+  "half-moon-pose": {
+    "level": "strong",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "hips",
+      "thighs"
+    ],
+    "loads": [
+      "ankles",
+      "shoulders"
+    ],
+    "sessions": [
+      "strong"
+    ],
+    "nameEs": "Postura de la Media Luna",
+    "cueEn": "Stack the hips over the standing leg.",
+    "cueEs": "Apila las caderas sobre la pierna de apoyo.",
+    "steps": [
+      2,
+      3,
+      4
+    ],
+    "stepsEs": [
+      "Pasa el peso al pie derecho y a la mano, y eleva la pierna izquierda hasta que esté a la altura de la cadera.",
+      "Estira la pierna derecha sin bloquear la rodilla y apila la cadera izquierda sobre la derecha.",
+      "Gira el pecho hacia el lado largo de la manta y lleva el brazo izquierdo hacia arriba."
+    ],
+    "careEn": "Letting the lifted leg drift forward of the body folds the hips toward the floor. Practise with your back against a wall.",
+    "careEs": "Dejar que la pierna elevada se vaya hacia delante del cuerpo dobla las caderas hacia el suelo. Practica con la espalda contra una pared."
+  },
+  "dancer-pose": {
+    "level": "strong",
+    "phase": "main",
+    "baseSec": 45,
+    "helps": [
+      "shoulders",
+      "thighs"
+    ],
+    "loads": [
+      "ankles",
+      "lower-back"
+    ],
+    "sessions": [
+      "strong",
+      "unwind"
+    ],
+    "nameEs": "Postura del Bailarín",
+    "cueEn": "Hips level, standing knee soft.",
+    "cueEs": "Caderas niveladas y rodilla de apoyo flexible.",
+    "steps": [
+      1,
+      3,
+      4
+    ],
+    "stepsEs": [
+      "Pasa el peso al pie izquierdo, flexiona la rodilla derecha y sujeta la parte interior del pie o del tobillo con la mano derecha.",
+      "Presiona el pie derecho hacia atrás contra tu mano. A medida que el pie va atrás y arriba, deja que el pecho se incline un poco hacia delante para equilibrarlo.",
+      "Mantén las caderas niveladas y la rodilla de apoyo blanda. Quédate tres o cinco respiraciones con la mirada en un punto fijo."
+    ],
+    "careEn": "Letting the lifted knee swing out to the side twists the lower back. Loop a strap around the lifted foot if you cannot reach it.",
+    "careEs": "Dejar que la rodilla elevada se balancee hacia un lado gira la zona lumbar. Pasa una correa por el pie elevado si no alcanzas."
+  },
+  "lizard-pose": {
+    "level": "strong",
+    "phase": "main",
+    "baseSec": 75,
+    "helps": [
+      "hips",
+      "thighs",
+      "hamstrings"
+    ],
+    "loads": [
+      "knees"
+    ],
+    "sessions": [
+      "strong",
+      "wake-up"
+    ],
+    "nameEs": "Postura de la Lagartija",
+    "cueEn": "Lower only as far as the hips allow.",
+    "cueEs": "Baja solo hasta donde permitan las caderas.",
+    "steps": [
+      1,
+      2,
+      3
+    ],
+    "stepsEs": [
+      "Baja la rodilla izquierda sobre una manta doblada y deslízala atrás hasta que la rodilla derecha quede sobre o justo detrás del tobillo derecho.",
+      "Mantén las manos bajo los hombros, o apoya los antebrazos en un bloque. Baja solo hasta donde permitan las caderas.",
+      "Alarga el pecho para que la espalda quede larga y deja que las caderas se afunden hacia delante y abajo."
+    ],
+    "careEn": "Letting the front knee drift toward the midline or travel far past the ankle. Keep the hands on blocks instead of lowering to the forearms.",
+    "careEs": "Dejar que la rodilla delantera se vaya hacia la línea media o pase demasiado del tobillo. Mantén las manos en bloques en lugar de bajar a los antebrazos."
+  }
+}
