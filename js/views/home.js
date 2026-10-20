@@ -53,6 +53,14 @@ export function renderHome(root, { onBuild }) {
   const focusChips = el('div', { class: 'chips' });
   const focusNote = el('p', { class: 'note-inline', role: 'status' });
 
+  // The chips are drawn once; their selected state lives in aria-pressed, so it has to be
+  // repainted after every change. Setting only the state leaves the pill looking dead.
+  function paintFocusChips() {
+    for (const chip of focusChips.querySelectorAll('.chip')) {
+      chip.setAttribute('aria-pressed', state.focus.includes(chip.dataset.area) ? 'true' : 'false');
+    }
+  }
+
   for (const area of FOCUS_AREAS) {
     const chip = el('button', {
       type: 'button',
@@ -71,6 +79,7 @@ export function renderHome(root, { onBuild }) {
       }
       focusNote.classList.remove('is-shown');
       set({ focus });
+      paintFocusChips();
     });
     focusChips.append(chip);
   }
@@ -137,11 +146,7 @@ export function renderHome(root, { onBuild }) {
 
   // Keep the controls in step when the language changes underneath them.
   return {
-    refresh() {
-      for (const chip of focusChips.querySelectorAll('.chip')) {
-        chip.setAttribute('aria-pressed', state.focus.includes(chip.dataset.area) ? 'true' : 'false');
-      }
-    },
+    refresh: paintFocusChips,
     destroy() {},
   };
 }

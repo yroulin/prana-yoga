@@ -122,6 +122,31 @@ async function main() {
       return true;
     `);
   };
+  // A real mouse click at the element's centre, with hit-testing. A programmatic .click()
+  // still fires when an invisible overlay covers the control, which is exactly how a dead
+  // pill can pass a test suite.
+  const realClick = async (selector, settle = 350) => {
+    const box = await evaluate(`
+      const node = document.querySelector(${JSON.stringify(selector)});
+      if (!node) throw new Error('no element for ${selector}');
+      node.scrollIntoView({ block: 'center' });
+      await new Promise(r => setTimeout(r, 220));
+      const rect = node.getBoundingClientRect();
+      const x = Math.round(rect.left + rect.width / 2);
+      const y = Math.round(rect.top + rect.height / 2);
+      const hit = document.elementFromPoint(x, y);
+      return {
+        x, y,
+        covered: !(hit === node || node.contains(hit) || (hit && hit.contains(node))),
+        hit: hit ? hit.tagName + '.' + String(hit.className || '') : 'none',
+      };
+    `);
+    if (box.covered) throw new Error(`${selector} is covered by ${box.hit}`);
+    await send('Input.dispatchMouseEvent', { type: 'mouseMoved', x: box.x, y: box.y });
+    await send('Input.dispatchMouseEvent', { type: 'mousePressed', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+    await send('Input.dispatchMouseEvent', { type: 'mouseReleased', x: box.x, y: box.y, button: 'left', clickCount: 1 });
+    await wait(settle);
+  };
   const setLang = (code) => click(`.segment-lang [data-lang="${code}"]`, 500);
   const go = (hash) => evaluate(`location.hash = ${JSON.stringify(hash)}; await new Promise(r => setTimeout(r, 500)); return true;`);
 
@@ -177,6 +202,43 @@ async function main() {
     ok(info.chips === 11, `eleven focus areas, found ${info.chips}`);
     ok(info.segments >= 2, `the segmented groups are there, found ${info.segments}`);
     ok(info.primary === 1, `one primary action on the screen, found ${info.primary}`);
+  }
+
+  console.log('controls respond to real clicks');
+  {
+    await realClick('.chip[data-area="neck"]', 300);
+    ok(
+      await evaluate(`return document.querySelector('.chip[data-area="neck"]').getAttribute('aria-pressed') === 'true';`),
+      'a focus chip shows as selected'
+    );
+    await realClick('.chip[data-area="neck"]', 300);
+    ok(
+      await evaluate(`return document.querySelector('.chip[data-area="neck"]').getAttribute('aria-pressed') === 'false';`),
+      'clicking it again deselects it'
+    );
+
+    await realClick('label[for="minutes-30"]', 300);
+    ok(
+      await evaluate(`return document.querySelector('input[name="minutes"][value="30"]').checked;`),
+      'the duration pill selects'
+    );
+
+    await realClick('label[for="effort-strong"]', 300);
+    ok(
+      await evaluate(`return document.querySelector('input[name="effort"][value="strong"]').checked;`),
+      'the effort pill selects'
+    );
+
+    await realClick('label[for="session-unwind"]', 300);
+    ok(
+      await evaluate(`return document.querySelector('input[name="session"][value="unwind"]').checked;`),
+      'a session card selects'
+    );
+
+    // put the defaults back so the rest of the run is predictable
+    await realClick('label[for="session-desk-reset"]', 200);
+    await realClick('label[for="minutes-20"]', 200);
+    await realClick('label[for="effort-gentle"]', 200);
   }
 
   console.log('building a session');
